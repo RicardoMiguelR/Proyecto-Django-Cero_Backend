@@ -1,0 +1,29 @@
+# Entorno virtual
+env/
+venv/
+ENV/
+.VENV/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Archivos temporales o del sistema
+*.log
+*.pot
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración personal
+*.env
+*.idea/
+.vscode/
+*.swp
+
+# Archivos de medios subidos por usuarios
+media/
+
+# Base de datos SQLite (si no la quieres subir) provisional hasta entrar en BD *
+db.sqlite3
