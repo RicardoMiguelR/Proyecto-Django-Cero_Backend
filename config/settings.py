@@ -77,6 +77,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
+# Paginación para la vista de listado de productos (6 productos por página)
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 6,
+}
+
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
